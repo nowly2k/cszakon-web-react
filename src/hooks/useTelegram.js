@@ -13,10 +13,10 @@ export function useTelegram() {
         }
     };
 
-    return (
+    return {
         onClose,
         onToggleButton,
         tg,
         user: tg.initDataUnsafe?.user,
-    )
+    }
 }
