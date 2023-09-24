@@ -7,9 +7,9 @@
 }
 
 .img {
-  width: 100%;
+  width: 10%;
   background: lightgray;
-  height: 10px;
+  height: 10%;
   margin: 0 auto;
   background: var(--tg-theme-button-color);
 }
