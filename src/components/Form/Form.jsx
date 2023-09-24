@@ -5,7 +5,7 @@ import { useTelegram } from "../../hooks/useTelegram";
 function Form() {
   const [country, setCountry] = useState("");
   const [street, setStreet] = useState("");
-  const [subject, setSubject] = useState("");
+  const [subject, setSubject] = useState("physical");
   const { tg } = useTelegram();
 
   const onSendData = useCallback(() => {
