@@ -68,8 +68,8 @@ function Form() {
         onChange={onChangeStreet}
       ></input>
       <select value={subject} onChange={onChangeSubject} className="select">
-        <option value={"physical"}>Юр. лицо</option>
-        <option value={"legal"}>Физ. лицо</option>
+        <option value={"physical"}>Физ. лицо</option>
+        <option value={"legal"}>Юр. лицо</option>
       </select>
     </div>
   );
