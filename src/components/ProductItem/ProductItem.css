@@ -7,9 +7,9 @@
 }
 
 .img {
-  width: 10%;
+  width: 100%;
   background: lightgray;
-  height: 10%;
+  height: 100px;
   margin: 0 auto;
   background: var(--tg-theme-button-color);
 }
@@ -20,4 +20,9 @@
 
 .add-btn {
   width: 100%;
+}
+
+img {
+  width: 10%;
+  height: 10%;
 }
