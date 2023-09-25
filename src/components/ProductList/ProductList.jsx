@@ -7,7 +7,7 @@ import { useTelegram } from "../../hooks/useTelegram";
 const products = [
   {
     id: "1",
-    image: "/img/коврик.jpg",
+    image: "/img/коврик.png",
     title: "Коврик для мыши",
     price: 1000,
     description: "Размер: 450x350mm",
