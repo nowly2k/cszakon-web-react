@@ -1,23 +1,48 @@
 .product {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid var(--tg-theme-button-color);
-  padding: 15px;
-  width: 170px;
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+  margin: 16px;
 }
 
-.img {
-  width: 100%;
-  background: lightgray;
-  height: 100px;
-  margin: 0 auto;
-  background: var(--tg-theme-button-color);
+.product img {
+  max-width: 100%;
+  height: auto;
+}
+
+.title {
+  font-size: 18px;
+  margin: 8px 0;
 }
 
 .description {
-  font-size: 0.8em;
+  font-size: 14px;
+  color: #777;
+  margin: 8px 0;
+}
+
+.price {
+  font-size: 16px;
+  margin: 8px 0;
+}
+
+.price span {
+  font-weight: bold;
 }
 
 .add-btn {
-  width: 100%;
+  background-color: var(--tg-theme-button-color);
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.add-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Добавьте дополнительные стили по вашему желанию */
