@@ -10,7 +10,7 @@ function ProductItem({ product, className, onAdd }) {
   return (
     <div className={"product " + className}>
       <div className={"img"}>
-        <img width={"80%"} src={product.image} alt={product.title} />
+        <img src={product.image} alt={product.title} />
       </div>
       <div className="title">{product.title}</div>
       <div className="description">{product.description}</div>
