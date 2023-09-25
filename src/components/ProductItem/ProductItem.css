@@ -1,9 +1,17 @@
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .product {
+  flex: 1;
   border: 1px solid #ccc;
   padding: 16px;
   text-align: center;
-  width: 250px;
+  width: calc(33.33% - 32px); /* Три колонки с отступами между ними */
   margin: 16px;
+  box-sizing: border-box;
 }
 
 .product img {
