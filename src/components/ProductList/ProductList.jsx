@@ -14,12 +14,14 @@ const products = [
   },
   {
     id: "2",
+    image: "/img/usp.png",
     title: "USP-S | Предатель",
     price: 1500,
     description: "После полевых испытаний",
   },
   {
     id: "3",
+    image: "/img/awp.png",
     title: "AWP | Мортис",
     price: 250,
     description: "После полевых испытаний",
