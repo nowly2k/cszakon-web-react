@@ -1,5 +1,6 @@
 .product-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -9,7 +10,7 @@
   border: 1px solid #ccc;
   padding: 16px;
   text-align: center;
-  width: calc(33.33% - 32px); /* Три колонки с отступами между ними */
+  width: auto;
   margin: 16px;
   box-sizing: border-box;
 }
